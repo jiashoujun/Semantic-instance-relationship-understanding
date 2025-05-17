@@ -2,7 +2,6 @@
 # Dependencies
 
 * Python 3.6.9
-* TensorFlow 1.13.1
 * CUDA 10.1
 
 
