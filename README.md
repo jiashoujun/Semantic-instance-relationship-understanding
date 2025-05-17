@@ -4,6 +4,7 @@ This demo provides an effective method to comprehensive extraction of semantic, 
 
 This method contains two main steps: 
 (1) Multiple-source point cloud aggregation uses multiple-source point clouds as the input and outputs high-dimensional geometric and physical features.
+
 (2) Multi-task point cloud interative learning network uses the high-dimensional features as the input and output the scene information including semantic, instance, and relationship. 
 
 
