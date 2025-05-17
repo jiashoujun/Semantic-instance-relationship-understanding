@@ -18,7 +18,7 @@ $ python val_tongji_grid.py --data  --model_path
 $ python Evaluation.py
 
 # Visualization 
-$ python visualization.py
+$ python visualizationColor.py
 
 
 
