@@ -6,18 +6,14 @@ from helper_ply import write_ply,read_ply
 ROOM_PATH_LIST = [line.rstrip() for line in open('/media/sever/data1/shoujun/building_data_label.txt')]
 num_room = len(ROOM_PATH_LIST)
 
-label_to_names = { 0: 'steelframe',
-                   1: 'keykeel',
-                   2: 'aluminumbar',
-                   3: 'column',
-                   4: 'aluminumplate',
-                   5: 'glass'}
+label_to_names = { 0: 'building',
+                   1: 'Grassland',
+                   2: 'Ground',
+                   3: 'Tree'}
 g_class2color = {0:[255,0,0],
                  1:[0,255,0],
                  2:[0,0,255],
-                 3:[0,102,0],
-                 4:[200,200,100],
-                 5:[170,120,200]}
+                 3:[0,102,0]}
 
 
 for i in range(num_room):
